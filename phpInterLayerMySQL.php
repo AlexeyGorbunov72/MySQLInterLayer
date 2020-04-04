@@ -6,7 +6,7 @@ class InfoAnswer{
 
 }
     $myObj = new InfoAnswer;
-    $myObj->rooms = 3;
+    $myObj->rooms = 1;
     $myObj->price = 140;
     $myObj->type = "midlePrice";
     $myJSON = json_encode($myObj);
